@@ -3,4 +3,3 @@ class AddUserIdToSessions < ActiveRecord::Migration[6.1]
     add_reference :sessions, :user, foreign_key: true
   end
 end
-
